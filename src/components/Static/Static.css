@@ -1,0 +1,42 @@
+.static {
+  display: flex;
+  background: #f4f0ec;
+  border-radius: 0px;
+  padding: 140px 120px;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+}
+
+.static__container {
+  border-right: 1px solid #cda274;
+  width: 288px;
+}
+
+.static__container:last-child {
+  border: none;
+}
+
+.static__title {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 85px;
+  line-height: 128px;
+  text-align: center;
+  letter-spacing: 1.7px;
+  margin: 0;
+  color: #cda274;
+}
+
+.static__subtitle {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  margin: 0;
+  color: #4d5053;
+}

@@ -1,0 +1,66 @@
+.interior {
+  position: relative;
+}
+
+.interior__background {
+  width: 100%;
+}
+
+.interior__container {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  max-width: 595px;
+  left: 120px;
+  top: 188px;
+}
+
+.interior__header {
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 96px;
+  letter-spacing: 0.22px;
+  color: #292f36;
+  margin: 0;
+}
+
+.interior__text {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  color: #4d5053;
+  margin: 19px 0 35px;
+}
+
+.interior__button {
+  background-color: #292f36;
+  border: 2px solid #292f36;
+  border-radius: 18px;
+  height: 71px;
+  width: 207px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px 0 34px;
+  justify-content: space-between;
+}
+
+.interior__button_text {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.72px;
+  color: #ffffff;
+}
+
+.interior__button_arrow {
+  height: 25px;
+}

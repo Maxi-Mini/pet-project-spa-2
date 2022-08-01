@@ -1,0 +1,6 @@
+.brand {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 120px 100px;
+    padding: 0 50px;
+}

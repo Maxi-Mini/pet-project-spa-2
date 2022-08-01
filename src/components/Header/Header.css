@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 120px;
+}
+
+.header__links {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.header__link {
+  text-decoration: none;
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  color: #292f36;
+}
+
+.header__link:first-child {
+    color: #CDA274;
+}
